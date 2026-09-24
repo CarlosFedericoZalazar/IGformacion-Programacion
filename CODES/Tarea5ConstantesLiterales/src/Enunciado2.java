@@ -17,5 +17,7 @@ public class Enunciado2 {
 
         System.out.printf("Serie %c ID: %05d", letraSerie, pedido);
 
+        sc.close();
+
     }
 }

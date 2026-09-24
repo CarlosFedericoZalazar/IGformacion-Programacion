@@ -20,6 +20,7 @@ public class Enunciado3 {
 
         System.out.printf("Diferencia: %+.2f\nDiferencia: %.2f", diferencia, diferencia);
 
+        sc.close();
 
     }
 }
