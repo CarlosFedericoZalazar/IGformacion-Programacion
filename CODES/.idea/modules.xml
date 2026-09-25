@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CODES.iml" filepath="$PROJECT_DIR$/.idea/CODES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioFormato/EjercicioFormato.iml" filepath="$PROJECT_DIR$/EjercicioFormato/EjercicioFormato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InitPOO/InitPOO.iml" filepath="$PROJECT_DIR$/InitPOO/InitPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarea5ConstantesLiterales/Tarea5ConstantesLiterales.iml" filepath="$PROJECT_DIR$/Tarea5ConstantesLiterales/Tarea5ConstantesLiterales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UD1-FichaAmpliacion/UD1-FichaAmpliacion.iml" filepath="$PROJECT_DIR$/UD1-FichaAmpliacion/UD1-FichaAmpliacion.iml" />
+    </modules>
+  </component>
+</project>

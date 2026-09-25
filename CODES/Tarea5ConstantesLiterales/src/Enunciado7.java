@@ -39,9 +39,9 @@ public class Enunciado7 {
         System.out.printf("INGRESAR NUMERO:");
         int num9 = sc.nextInt();
 
-        System.out.printf("%03d %03d %03d\n" +
+        System.out.printf("\n%03d %03d %03d\n" +
                           "%03d %03d %03d\n" +
-                          "%03d %03d %03d", num1,num2,num3,num4,num5,num6,num7,num8,num9);
+                          "%03d %03d %03d\n", num1,num2,num3,num4,num5,num6,num7,num8,num9);
 
         sc.close();
     }
