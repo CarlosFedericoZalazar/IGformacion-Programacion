@@ -9,6 +9,7 @@ public class Main {
 
         int velocidadLimite = 0;
         int velocidad = 0;
+        String mensaje;
 
         int opc;
         int cantidadCambiosVelocidad = 3;
@@ -33,13 +34,15 @@ public class Main {
 
         for(int i = 0; i<cantidadCambiosVelocidad; i++){
             do{
-                if(velocidad < 0) System.out.printf("ERROR: VELOCIDAD NO PUEDE SER MENOR A 0\n");
                 System.out.printf("\nCAMBIO DE VELOCIDAD:  %d\n", i+1);
                 velocidad += sc.nextInt();
 
+                mensaje = (velocidad < 0) ? "ERROR: VELOCIDAD NO PUEDE SER MENOR A 0\n" :
+                            (velocidad>velocidadLimite)?"LIMITE SUPERADO\n":"LIMITE JOYA\n";
+                System.out.printf("%s", mensaje);
+                //CORREGIR CANDO ACUMULA NEGATIVO
             }while (velocidad < 0);
         }
-
 
     }
 }
