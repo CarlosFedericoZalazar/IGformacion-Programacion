@@ -8,10 +8,11 @@ public class Ejercicio4 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int numero = 0;
+        System.out.print("INGRESAR NUMERO POSITIVO: ");
+        int numero = sc.nextInt();
 
         while (numero <= 0) {
-            System.out.print("NUMERO POSITIVO: ");
+            System.out.print("INGRESAR NUMERO POSITIVO: ");
             numero = sc.nextInt();
         }
 

@@ -8,16 +8,17 @@ public class Ejercicio3 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
-        boolean salida = false;
         int acc = 0;
-        int numero;
-        while (!salida){
-            System.out.printf("Ingresar numero: ");
-            numero = sc.nextInt();
+
+        System.out.print("Ingresar numero: ");
+        int numero = sc.nextInt();
+
+        while (numero != 0) {
             acc += numero;
-            if(numero == 0) salida = true;
+            System.out.print("Ingresar numero: ");
+            numero = sc.nextInt();
         }
-        System.out.println(acc);
+        System.out.println("La suma total es: " + acc);
+        sc.close();
     }
 }
